@@ -328,3 +328,7 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+/Trafo.Web/src/css
+/Trafo.Web/wwwroot/app
+/Trafo.Web/wwwroot/styles
+*.html

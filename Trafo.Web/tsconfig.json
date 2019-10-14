@@ -1,0 +1,19 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "skipLibCheck": true,
+    "module": "amd",
+    "allowJs": true,
+    "outDir": "wwwroot/app"
+  },
+
+  "include": [
+    "src/app/**/*",
+    "src/@types/**/*"
+  ]
+}

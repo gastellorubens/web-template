@@ -1,0 +1,190 @@
+{
+  "errors": [
+    "./src/app/main.ts\nModule build failed (from ./node_modules/ts-loader/index.js):\nError: Cannot find module 'typescript'\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:507:25)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (E:\\MonsterOps\\Trafo.Web\\Trafo.Web\\node_modules\\v8-compile-cache\\v8-compile-cache.js:161:20)\n    at Object.<anonymous> (E:\\MonsterOps\\Trafo.Web\\Trafo.Web\\node_modules\\ts-loader\\dist\\utils.js:6:20)\n    at Module._compile (E:\\MonsterOps\\Trafo.Web\\Trafo.Web\\node_modules\\v8-compile-cache\\v8-compile-cache.js:192:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:530:3)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (E:\\MonsterOps\\Trafo.Web\\Trafo.Web\\node_modules\\v8-compile-cache\\v8-compile-cache.js:161:20)\n    at Object.<anonymous> (E:\\MonsterOps\\Trafo.Web\\Trafo.Web\\node_modules\\ts-loader\\dist\\after-compile.js:6:17)\n    at Module._compile (E:\\MonsterOps\\Trafo.Web\\Trafo.Web\\node_modules\\v8-compile-cache\\v8-compile-cache.js:192:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:530:3)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (E:\\MonsterOps\\Trafo.Web\\Trafo.Web\\node_modules\\v8-compile-cache\\v8-compile-cache.js:161:20)\n    at Object.<anonymous> (E:\\MonsterOps\\Trafo.Web\\Trafo.Web\\node_modules\\ts-loader\\dist\\instances.js:6:25)\n    at Module._compile (E:\\MonsterOps\\Trafo.Web\\Trafo.Web\\node_modules\\v8-compile-cache\\v8-compile-cache.js:192:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:530:3)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (E:\\MonsterOps\\Trafo.Web\\Trafo.Web\\node_modules\\v8-compile-cache\\v8-compile-cache.js:161:20)\n    at Object.<anonymous> (E:\\MonsterOps\\Trafo.Web\\Trafo.Web\\node_modules\\ts-loader\\dist\\index.js:5:21)\n    at Module._compile (E:\\MonsterOps\\Trafo.Web\\Trafo.Web\\node_modules\\v8-compile-cache\\v8-compile-cache.js:192:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:530:3)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (E:\\MonsterOps\\Trafo.Web\\Trafo.Web\\node_modules\\v8-compile-cache\\v8-compile-cache.js:161:20)"
+  ],
+  "warnings": [
+    "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/"
+  ],
+  "version": "4.41.1",
+  "hash": "a76aee9f7ee484fe77bb",
+  "time": 235,
+  "builtAt": 1571086446653,
+  "publicPath": "",
+  "outputPath": "E:\\MonsterOps\\Trafo.Web\\Trafo.Web\\wwwroot",
+  "assetsByChunkName": {
+    "main": "./wwwroot/app/bundle.js"
+  },
+  "assets": [
+    {
+      "name": "./wwwroot/app/bundle.js",
+      "size": 4119,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "./wwwroot/app/bundle.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "./wwwroot/app/bundle.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 3190,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "./wwwroot/app/bundle.js"
+      ],
+      "hash": "0311e2fdd767420b08e0",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "E:\\MonsterOps\\Trafo.Web\\Trafo.Web\\node_modules\\ts-loader\\index.js!E:\\MonsterOps\\Trafo.Web\\Trafo.Web\\src\\app\\main.ts",
+          "name": "./src/app/main.ts",
+          "index": 0,
+          "index2": 0,
+          "size": 3190,
+          "cacheable": false,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 68,
+            "building": 73
+          },
+          "failed": true,
+          "errors": 1,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/app/main.ts",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "throw new Error(\"Module build failed (from ./node_modules/ts-loader/index.js):\\nError: Cannot find module 'typescript'\\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)\\n    at Function.Module._load (internal/modules/cjs/loader.js:507:25)\\n    at Module.require (internal/modules/cjs/loader.js:637:17)\\n    at require (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:161:20)\\n    at Object.<anonymous> (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\ts-loader\\\\dist\\\\utils.js:6:20)\\n    at Module._compile (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:192:30)\\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\\n    at Module.load (internal/modules/cjs/loader.js:599:32)\\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)\\n    at Function.Module._load (internal/modules/cjs/loader.js:530:3)\\n    at Module.require (internal/modules/cjs/loader.js:637:17)\\n    at require (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:161:20)\\n    at Object.<anonymous> (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\ts-loader\\\\dist\\\\after-compile.js:6:17)\\n    at Module._compile (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:192:30)\\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\\n    at Module.load (internal/modules/cjs/loader.js:599:32)\\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)\\n    at Function.Module._load (internal/modules/cjs/loader.js:530:3)\\n    at Module.require (internal/modules/cjs/loader.js:637:17)\\n    at require (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:161:20)\\n    at Object.<anonymous> (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\ts-loader\\\\dist\\\\instances.js:6:25)\\n    at Module._compile (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:192:30)\\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\\n    at Module.load (internal/modules/cjs/loader.js:599:32)\\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)\\n    at Function.Module._load (internal/modules/cjs/loader.js:530:3)\\n    at Module.require (internal/modules/cjs/loader.js:637:17)\\n    at require (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:161:20)\\n    at Object.<anonymous> (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\ts-loader\\\\dist\\\\index.js:5:21)\\n    at Module._compile (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:192:30)\\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\\n    at Module.load (internal/modules/cjs/loader.js:599:32)\\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)\\n    at Function.Module._load (internal/modules/cjs/loader.js:530:3)\\n    at Module.require (internal/modules/cjs/loader.js:637:17)\\n    at require (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:161:20)\");"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/app/main.ts",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "E:\\MonsterOps\\Trafo.Web\\Trafo.Web\\node_modules\\ts-loader\\index.js!E:\\MonsterOps\\Trafo.Web\\Trafo.Web\\src\\app\\main.ts",
+      "name": "./src/app/main.ts",
+      "index": 0,
+      "index2": 0,
+      "size": 3190,
+      "cacheable": false,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 68,
+        "building": 73
+      },
+      "failed": true,
+      "errors": 1,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/app/main.ts",
+          "loc": "main"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0,
+      "source": "throw new Error(\"Module build failed (from ./node_modules/ts-loader/index.js):\\nError: Cannot find module 'typescript'\\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)\\n    at Function.Module._load (internal/modules/cjs/loader.js:507:25)\\n    at Module.require (internal/modules/cjs/loader.js:637:17)\\n    at require (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:161:20)\\n    at Object.<anonymous> (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\ts-loader\\\\dist\\\\utils.js:6:20)\\n    at Module._compile (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:192:30)\\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\\n    at Module.load (internal/modules/cjs/loader.js:599:32)\\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)\\n    at Function.Module._load (internal/modules/cjs/loader.js:530:3)\\n    at Module.require (internal/modules/cjs/loader.js:637:17)\\n    at require (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:161:20)\\n    at Object.<anonymous> (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\ts-loader\\\\dist\\\\after-compile.js:6:17)\\n    at Module._compile (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:192:30)\\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\\n    at Module.load (internal/modules/cjs/loader.js:599:32)\\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)\\n    at Function.Module._load (internal/modules/cjs/loader.js:530:3)\\n    at Module.require (internal/modules/cjs/loader.js:637:17)\\n    at require (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:161:20)\\n    at Object.<anonymous> (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\ts-loader\\\\dist\\\\instances.js:6:25)\\n    at Module._compile (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:192:30)\\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\\n    at Module.load (internal/modules/cjs/loader.js:599:32)\\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)\\n    at Function.Module._load (internal/modules/cjs/loader.js:530:3)\\n    at Module.require (internal/modules/cjs/loader.js:637:17)\\n    at require (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:161:20)\\n    at Object.<anonymous> (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\ts-loader\\\\dist\\\\index.js:5:21)\\n    at Module._compile (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:192:30)\\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\\n    at Module.load (internal/modules/cjs/loader.js:599:32)\\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)\\n    at Function.Module._load (internal/modules/cjs/loader.js:530:3)\\n    at Module.require (internal/modules/cjs/loader.js:637:17)\\n    at require (E:\\\\MonsterOps\\\\Trafo.Web\\\\Trafo.Web\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:161:20)\");"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": []
+}
