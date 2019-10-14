@@ -44,4 +44,4 @@ gulp.task('htmldev:build', function () {
         .pipe(gulp.dest(paths.wwwroot.html))
 });
 
-gulp.task('default', gulp.parallel(['sass', 'autoprefixes', gulp.parallel('watch:sass', 'watch:html')]));
+gulp.task('default', gulp.parallel([gulp.series('htmldev:build','sass', 'autoprefixes'), gulp.parallel('watch:sass', 'watch:html')]));

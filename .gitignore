@@ -331,4 +331,4 @@ ASALocalRun/
 /Trafo.Web/src/css
 /Trafo.Web/wwwroot/app
 /Trafo.Web/wwwroot/styles
-*.html
+/Trafo.Web/wwwroot/*.html
