@@ -1,4 +1,5 @@
-﻿var gulp = require("gulp"),
+﻿/// <binding AfterBuild='default' />
+var gulp = require("gulp"),
     sass = require("gulp-sass"),
     autoprefixer = require('gulp-autoprefixer'),
     rigger = require('gulp-rigger')
@@ -44,4 +45,6 @@ gulp.task('htmldev:build', function () {
         .pipe(gulp.dest(paths.wwwroot.html))
 });
 
-gulp.task('default', gulp.parallel([gulp.series('htmldev:build','sass', 'autoprefixes'), gulp.parallel('watch:sass', 'watch:html')]));
+gulp.task('default', function () {
+    gulp.parallel([gulp.series('htmldev:build', 'sass', 'autoprefixes'), gulp.parallel('watch:sass', 'watch:html')]);
+})
